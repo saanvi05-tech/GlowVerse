@@ -1,116 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GlowVerse</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GlowVerse | Fashion & Skincare</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<header class="navbar">
+<nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
 
-    <div class="logo">
-        Glow<span>Verse</span>
-    </div>
+<div class="container">
 
-    <nav>
+<a class="navbar-brand logo" href="#">
+Glow<span>Verse</span>
+</a>
 
-        <a href="#">Home</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
 
-        <a href="#">Fashion</a>
+<span class="navbar-toggler-icon"></span>
 
-        <a href="#">Skincare</a>
+</button>
 
-        <a href="#">Blog</a>
+<div class="collapse navbar-collapse" id="menu">
 
-        <a href="#">Contact</a>
+<ul class="navbar-nav ms-auto">
 
-    </nav>
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
 
-    <div class="icons">
+<li class="nav-item">
+<a class="nav-link" href="#">Fashion</a>
+</li>
 
-        <i class="fa-solid fa-magnifying-glass"></i>
+<li class="nav-item">
+<a class="nav-link" href="#">Skincare</a>
+</li>
 
-        <i class="fa-regular fa-heart"></i>
+<li class="nav-item">
+<a class="nav-link" href="#">Blog</a>
+</li>
 
-    </div>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
 
-</header>
+</ul>
+
+</div>
+
+</div>
+
+</nav>
 
 <section class="hero">
 
-    <div class="hero-text">
+<div class="container">
 
-        <span class="badge">
-            ✨ Trusted by 10K+ Beauty Lovers
-        </span>
+<div class="row align-items-center">
 
-        <h1>
-            Curated Fashion &
-            <br>
-            Radiant Skincare
-        </h1>
+<div class="col-lg-6">
 
-        <p>
-            Discover timeless fashion inspiration,
-            skincare routines, honest product recommendations,
-            and everyday beauty guides.
-        </p>
+<span class="badge-custom">
+Editor's Choice ✨
+</span>
 
-        <div class="hero-buttons">
+<h1>
 
-            <a href="#" class="btn-primary">
-                Explore Fashion
-            </a>
+Where Effortless Style
+Meets Radiant Skin
 
-            <a href="#" class="btn-secondary">
-                Skincare →
-            </a>
+</h1>
 
-        </div>
+<p>
 
-    </div>
+Discover curated fashion inspiration,
+skincare routines and editor-approved
+beauty recommendations.
 
-    <div class="hero-image">
+</p>
 
-        <img src="images/hero.jpg" alt="Fashion">
+<a href="#" class="btn btn-main">
+Explore Now
+</a>
 
-    </div>
+</div>
+
+<div class="col-lg-6 text-center">
+
+<img src="images/hero.jpg" class="hero-img">
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
-<section class="cards">
+<section class="section">
 
-    <div class="card">
-        <h3>Fashion</h3>
-        <p>Outfits, Dresses, Shoes & Accessories</p>
-    </div>
+<div class="container">
 
-    <div class="card">
-        <h3>Skincare</h3>
-        <p>Face Wash, Serums, Sunscreens & More</p>
-    </div>
+<h2 class="section-title">
+
+Editor's Picks
+
+</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card-custom">
+
+<img src="images/fashion1.jpg">
+
+<h3>Minimal Skincare Essentials</h3>
+
+<p>Build a simple skincare routine that actually works.</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card-custom">
+
+<img src="images/skincare1.jpg">
+
+<h3>Glass Skin Guide</h3>
+
+<p>Simple routines that work.</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card-custom">
+
+<img src="images/fashion2.jpg">
+
+<h3>Wardrobe Essentials</h3>
+
+<p>Timeless fashion pieces.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
 <footer>
 
-<p>© 2026 GlowVerse</p>
+<p>
+
+© 2026 GlowVerse
+
+</p>
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
 
 </body>
 

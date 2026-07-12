@@ -507,21 +507,35 @@ FEATURED COLLECTIONS
 }
 
 .collection{
-    position:relative;
-    height:520px;
-    border-radius:30px;
-    overflow:hidden;
 
-    display:flex;
-    align-items:flex-end;
+height:450px;
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+border-radius:25px;
 
-    margin-bottom:30px;
+overflow:hidden;
 
-    transition:0.4s;
+position:relative;
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+display:flex;
+
+align-items:flex-end;
+
+margin-bottom:30px;
+
+transition:.4s;
+
+}
+
+.collection:hover{
+
+transform:scale(1.02);
+
 }
 
 .collection:hover{
@@ -537,23 +551,45 @@ FEATURED COLLECTIONS
 }
 
 .overlay{
-    width:100%;
-    height:100%;
 
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
+width:100%;
 
-    padding:60px;
+padding:40px;
 
-    background:linear-gradient(
-        to top,
-        rgba(0,0,0,.65),
-        rgba(0,0,0,.15),
-        transparent
-    );
+background:linear-gradient(
+to top,
+rgba(0,0,0,.75),
+rgba(0,0,0,.2),
+transparent
+);
 
-    color:white;
+color:white;
+
+}
+.overlay h2{
+
+font-size:48px;
+
+margin-bottom:15px;
+
+}
+
+.overlay p{
+
+font-size:18px;
+
+margin-bottom:20px;
+
+}
+
+.overlay a{
+
+color:white;
+
+font-weight:600;
+
+text-decoration:none;
+
 }
 
 .overlay h2{

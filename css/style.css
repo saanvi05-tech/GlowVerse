@@ -510,7 +510,7 @@ padding:100px 0;
 
 .collection{
 
-height:420px;
+height:320px;
 
 border-radius:30px;
 
@@ -533,9 +533,7 @@ transition:.4s;
 }
 
 .collection:hover{
-
-transform:translateY(-8px);
-
+background-size:110%;
 }
 
 .fashion{

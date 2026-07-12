@@ -531,6 +531,19 @@ margin-bottom:30px;
 transition:.4s;
 
 }
+.collection::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:rgba(0,0,0,.15);
+
+z-index:1;
+
+}
 
 .collection:hover{
 
@@ -552,6 +565,12 @@ transform:scale(1.02);
 
 .overlay{
 
+position:absolute;
+
+left:0;
+
+bottom:0;
+
 width:100%;
 
 padding:40px;
@@ -564,6 +583,8 @@ transparent
 );
 
 color:white;
+
+z-index:2;
 
 }
 .overlay h2{

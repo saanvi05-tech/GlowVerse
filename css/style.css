@@ -509,27 +509,14 @@ padding:100px 0;
 }
 
 .collection{
+    position: relative;
+    height: 520px;
+    border-radius: 30px;
+    overflow: hidden;
 
-height:320px;
-
-border-radius:30px;
-
-overflow:hidden;
-
-margin-bottom:40px;
-
-position:relative;
-
-background-size:cover;
-
-background-position:center;
-
-display:flex;
-
-align-items:flex:end;
-
-transition:.4s;
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .collection:hover{

@@ -846,3 +846,73 @@ background:white;
 color:black;
 
 }
+
+/*=========================
+Trending Categories
+=========================*/
+
+.fashion-categories{
+
+padding:100px 0;
+
+background:#fffaf8;
+
+}
+
+.category-card{
+
+position:relative;
+
+overflow:hidden;
+
+border-radius:20px;
+
+height:450px;
+
+cursor:pointer;
+
+}
+
+.category-card img{
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.category-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.category-overlay{
+
+position:absolute;
+
+bottom:0;
+
+left:0;
+
+width:100%;
+
+padding:30px;
+
+background:linear-gradient(transparent,rgba(0,0,0,.75));
+
+}
+
+.category-overlay h3{
+
+color:white;
+
+font-size:34px;
+
+font-family:"Playfair Display",serif;
+
+}

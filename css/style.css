@@ -916,3 +916,55 @@ font-size:34px;
 font-family:"Playfair Display",serif;
 
 }
+
+/*=========================
+Editor's Picks
+=========================*/
+
+.editor-section{
+
+padding:110px 0;
+
+background:white;
+
+}
+
+.editor-tag{
+
+display:inline-block;
+
+padding:10px 22px;
+
+background:#ffe6ee;
+
+color:#ff5b93;
+
+font-weight:600;
+
+border-radius:40px;
+
+margin-bottom:20px;
+
+}
+
+.editor-title{
+
+font-size:55px;
+
+font-family:"Playfair Display",serif;
+
+margin-bottom:25px;
+
+}
+
+.editor-text{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#666;
+
+margin-bottom:35px;
+
+}

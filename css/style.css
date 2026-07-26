@@ -1005,21 +1005,21 @@ SKINCARE HERO
 
 .skincare-hero{
 
-height:90vh;
+min-height:75vh;
 
 display:flex;
 
 align-items:center;
 
+padding:120px 0;
+
 background:
-linear-gradient(rgba(255,255,255,.30),rgba(255,255,255,.30)),
+linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)),
 url("../images/skincare-hero.jpg");
 
 background-size:cover;
 
 background-position:center;
-
-color:#222;
 
 }
 

@@ -48,6 +48,35 @@ html{
     color:#E86A92!important;
 }
 
+.nav-link.active{
+
+color:#FF5F95 !important;
+
+font-weight:600;
+
+position:relative;
+
+}
+
+.nav-link.active::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:-8px;
+
+width:100%;
+
+height:2px;
+
+background:#FF5F95;
+
+border-radius:10px;
+
+}
 /* HERO */
 
 .hero{

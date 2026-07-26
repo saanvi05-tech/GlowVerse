@@ -1040,3 +1040,110 @@ font-weight:600;
 margin-bottom:25px;
 
 }
+
+
+/*=========================
+SHOP BY SKIN GOAL
+=========================*/
+
+.skin-goals{
+
+padding:100px 0;
+
+background:#FFF9F8;
+
+}
+
+.section-subtitle{
+
+max-width:650px;
+
+margin:auto;
+
+color:#666;
+
+font-size:18px;
+
+}
+
+.goal-card{
+
+background:#fff;
+
+padding:35px;
+
+border-radius:22px;
+
+height:100%;
+
+text-align:left;
+
+box-shadow:0 15px 35px rgba(0,0,0,.06);
+
+transition:.35s;
+
+}
+
+.goal-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.goal-icon{
+
+font-size:48px;
+
+margin-bottom:20px;
+
+}
+
+.goal-card h3{
+
+font-family:"Playfair Display",serif;
+
+margin-bottom:15px;
+
+font-size:34px;
+
+}
+
+.goal-card p{
+
+color:#666;
+
+line-height:1.8;
+
+margin-bottom:20px;
+
+}
+
+.goal-card a{
+
+display:inline-block;
+
+padding:12px 24px;
+
+background:#FF5F95;
+
+color:white;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.goal-card a:hover{
+
+background:#222;
+
+color:white;
+
+}

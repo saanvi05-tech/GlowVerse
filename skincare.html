@@ -3,24 +3,36 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<title>Skincare | GlowVerse</title>
+    <title>Skincare | GlowVerse</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
+
 <body>
 
-<!-- Navbar -->
+
+<!-- =========================
+     NAVBAR
+========================== -->
+
 <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
 
     <div class="container">
@@ -29,7 +41,9 @@ content="width=device-width, initial-scale=1.0">
             Glow<span>Verse</span>
         </a>
 
-        <button class="navbar-toggler"
+
+        <button
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#menu">
@@ -38,28 +52,75 @@ content="width=device-width, initial-scale=1.0">
 
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+
+        <div
+            class="collapse navbar-collapse"
+            id="menu">
 
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+
+                    <a
+                        class="nav-link"
+                        href="index.html">
+
+                        Home
+
+                    </a>
+
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="fashion.html">Fashion</a>
-                </li>
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="skincare.html">Skincare</a>
+
+                    <a
+                        class="nav-link"
+                        href="fashion.html">
+
+                        Fashion
+
+                    </a>
+
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="journal.html">Journal</a>
-                </li>
 
                 <li class="nav-item">
-                   <a class="nav-link" href="about.html">About</a>
+
+                    <a
+                        class="nav-link active"
+                        href="skincare.html">
+
+                        Skincare
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="#">
+
+                        Blog
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="#">
+
+                        Contact
+
+                    </a>
+
                 </li>
 
             </ul>
@@ -72,1060 +133,316 @@ content="width=device-width, initial-scale=1.0">
 
 
 
-<!-- ======================================
-        SKINCARE HERO
-====================================== -->
+<!-- =========================
+     SKINCARE HERO
+========================== -->
 
-<section class="skincare-hero">
+<section class="skin-hero">
 
-    <div class="container">
+    <div class="skin-hero-overlay">
 
-        <div class="skincare-content">
-
-            <span class="hero-tag">
-                ✨ Glow Starts Here
-            </span>
+        <div class="skin-hero-content">
 
             <h1>
-                Discover Your Perfect
-                Skincare Routine
+                SKINCARE
             </h1>
 
-            <p>
 
-                From beginner routines to expert-approved product recommendations,
-                explore skincare that actually works for your skin.
+            <a
+                href="#bestsellers"
+                class="skin-buy-btn">
 
-            </p>
+                BUY HERE >
 
-            <a href="#featured-guides" class="btn-fashion">
-    Explore Skincare →
-</a>
+            </a>
 
         </div>
 
     </div>
 
 </section>
-<section id="featured-guides" class="featured-guides"> 
+
+
+
+<!-- =========================
+     BESTSELLERS
+========================== -->
+
+<section
+    class="skin-bestsellers"
+    id="bestsellers">
 
     <div class="container">
 
-        <div class="text-center mb-5">
-
-            <h2 class="section-title">
-                Featured Buying Guides
-            </h2>
-
-            <p class="section-subtitle">
-                Explore carefully curated skincare guides to help you discover products worth buying.
-            </p>
-
-        </div>
-
-        <div class="row g-4">
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="guide-card">
-
-                    <img src="images/sunscreen-guide.jpg" alt="Best Sunscreens">
-
-                    <div class="guide-content">
-
-                        <span>Sun Protection</span>
-
-                        <h3>Best Sunscreens</h3>
-
-                        <a href="best-sunscreens.html">
-                            Read Guide →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="guide-card">
-
-                    <img src="images/vitamin-c-guide.jpg" alt="Vitamin C">
-
-                    <div class="guide-content">
-
-                        <span>Serums</span>
-
-                        <h3>Vitamin C Serums That Actually Work</h3>
-
-                        <a href="#">
-                            Read Guide →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="guide-card">
-
-                    <img src="images/glass-skin-guide.jpg" alt="Glass Skin">
-
-                    <div class="guide-content">
-
-                        <span>Routine</span>
-
-                        <h3>Glass Skin Essentials</h3>
-
-                        <a href="#">
-                            Read Guide →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="guide-card">
-
-                    <img src="images/cleansing-guide.jpg" alt="Cleansing Oil">
-
-                    <div class="guide-content">
-
-                        <span>Cleansers</span>
-
-                        <h3>Best Cleansers</h3>
-
-                        <a href="#">
-                            Read Guide →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- ======================================
-     BEST SUNSCREENS
-====================================== -->
-
-<section class="sunscreen-section">
-
-    <div class="container">
-
-        <div class="text-center mb-5">
-
-            <span class="section-tag">
-                ☀️ Sun Protection
-            </span>
-
-            <h2 class="section-title">
-                Best Sunscreens
-            </h2>
-
-            <p class="section-subtitle">
-                Discover popular sunscreens across different textures,
-                finishes, skin types and price ranges.
-            </p>
-
-        </div>
+        <h2>
+            Bestsellers
+        </h2>
 
 
-        <div class="row g-4">
+        <div class="bestseller-grid">
 
 
             <!-- PRODUCT 1 -->
 
-            <div class="col-lg-4 col-md-6">
+            <div class="bestseller-card">
 
-                <div class="product-card">
+                <a href="#">
 
-                    <div class="product-image">
+                    <img
+                        src="images/bestseller-sunscreen.jpg"
+                        alt="Sunscreen">
 
-                        <img src="images/derma-co-sunscreen.jpg"
-                             alt="The Derma Co 1% Hyaluronic Sunscreen Aqua Gel">
+                </a>
 
-                    </div>
 
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            The Derma Co
-                        </span>
-
-                        <h3>
-                            1% Hyaluronic Sunscreen Aqua Gel
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50 PA++++
-                        </span>
-
-                        <p>
-                            Very popular and known for its lightweight gel texture.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_1"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
+                <p>
+                    Best Everyday Sunscreen
+                </p>
 
             </div>
+
 
 
             <!-- PRODUCT 2 -->
 
-            <div class="col-lg-4 col-md-6">
+            <div class="bestseller-card">
 
-                <div class="product-card">
+                <a href="#">
 
-                    <div class="product-image">
+                    <img
+                        src="images/bestseller-serum.jpg"
+                        alt="Vitamin C Serum">
 
-                        <img src="images/dot-key-vitamin-c-sunscreen.jpg"
-                             alt="Dot & Key Vitamin C + E Super Bright Sunscreen">
+                </a>
 
-                    </div>
 
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Dot & Key
-                        </span>
-
-                        <h3>
-                            Vitamin C + E Super Bright Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+ PA++++
-                        </span>
-
-                        <p>
-                            Extremely popular among younger skincare users.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_2"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
+                <p>
+                    Vitamin C Serum
+                </p>
 
             </div>
+
 
 
             <!-- PRODUCT 3 -->
 
-            <div class="col-lg-4 col-md-6">
+            <div class="bestseller-card">
 
-                <div class="product-card">
+                <a href="#">
 
-                    <div class="product-image">
+                    <img
+                        src="images/bestseller-lipbalm.jpg"
+                        alt="Lip Balm">
 
-                        <img src="images/aqualogica-glow-sunscreen.jpg"
-                             alt="Aqualogica Glow+ Dewy Gel Sunscreen">
+                </a>
 
-                    </div>
 
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Aqualogica
-                        </span>
-
-                        <h3>
-                            Glow+ Dewy Gel Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+ PA++++
-                        </span>
-
-                        <p>
-                            Very popular with a lightweight, dewy finish.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_3"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
+                <p>
+                    Hydrating Lip Balm
+                </p>
 
             </div>
+
 
 
             <!-- PRODUCT 4 -->
 
-            <div class="col-lg-4 col-md-6">
+            <div class="bestseller-card">
 
-                <div class="product-card">
+                <a href="#">
 
-                    <div class="product-image">
+                    <img
+                        src="images/bestseller-toner.jpg"
+                        alt="Toner">
 
-                        <img src="images/minimalist-light-fluid-sunscreen.jpg"
-                             alt="Minimalist Light Fluid Sunscreen">
+                </a>
 
-                    </div>
 
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Minimalist
-                        </span>
-
-                        <h3>
-                            Light Fluid Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50
-                        </span>
-
-                        <p>
-                            Lightweight formula with a minimalist skincare positioning.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_4"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
+                <p>
+                    Hydrating Toner
+                </p>
 
             </div>
 
+        </div>
 
-            <!-- PRODUCT 5 -->
 
-            <div class="col-lg-4 col-md-6">
 
-                <div class="product-card">
+        <a
+            href="#product-types"
+            class="skin-view-btn">
 
-                    <div class="product-image">
+            VIEW ALL
 
-                        <img src="images/reequil-ultra-matte-sunscreen.jpg"
-                             alt="Re'equil Ultra Matte Dry Touch Sunscreen">
+        </a>
 
-                    </div>
+    </div>
 
-                    <div class="product-info">
+</section>
 
-                        <span class="product-brand">
-                            Re'equil
-                        </span>
 
-                        <h3>
-                            Ultra Matte Dry Touch Sunscreen
-                        </h3>
 
-                        <span class="spf">
-                            SPF 50 PA++++
-                        </span>
+<!-- =========================
+     SHOP BY PRODUCT TYPE
+========================== -->
 
-                        <p>
-                            Popular choice for oily and combination skin.
-                        </p>
+<section
+    class="product-type-section"
+    id="product-types">
 
-                        <a href="YOUR_AFFILIATE_LINK_5"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
 
-                    </div>
+    <div class="product-type-left">
 
-                </div>
+        <h2>
+            Shop by<br>
+            Product Type
+        </h2>
 
-            </div>
+    </div>
 
 
-            <!-- PRODUCT 6 -->
 
-            <div class="col-lg-4 col-md-6">
+    <div class="product-type-right">
 
-                <div class="product-card">
+        <img
+            src="images/product-type.jpg"
+            alt="Skincare products">
 
-                    <div class="product-image">
 
-                        <img src="images/neutrogena-ultra-sheer.jpg"
-                             alt="Neutrogena Ultra Sheer Dry Touch Sunscreen">
+        <div class="product-type-link">
 
-                    </div>
+            <a href="#">
 
-                    <div class="product-info">
+                Skincare >
 
-                        <span class="product-brand">
-                            Neutrogena
-                        </span>
-
-                        <h3>
-                            Ultra Sheer Dry-Touch Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+
-                        </span>
-
-                        <p>
-                            A long-standing mainstream sunscreen bestseller.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_6"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 7 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/foxtale-dewy-sunscreen.jpg"
-                             alt="Foxtale Dewy Sunscreen SPF 70">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Foxtale
-                        </span>
-
-                        <h3>
-                            Dewy Sunscreen SPF 70
-                        </h3>
-
-                        <span class="spf">
-                            SPF 70 PA++++
-                        </span>
-
-                        <p>
-                            A popular newer Indian skincare brand option.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_7"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 8 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/dr-sheths-sunscreen.jpg"
-                             alt="Dr. Sheth's Ceramide & Vitamin C Sunscreen">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Dr. Sheth's
-                        </span>
-
-                        <h3>
-                            Ceramide & Vitamin C Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+ PA++++
-                        </span>
-
-                        <p>
-                            Popular for barrier-focused skincare.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_8"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 9 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/fixderma-shadow-sunscreen.jpg"
-                             alt="Fixderma Shadow SPF 50+ Gel">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Fixderma
-                        </span>
-
-                        <h3>
-                            Shadow SPF 50+ Gel
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+
-                        </span>
-
-                        <p>
-                            Frequently recommended as an option for oily skin.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_9"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 10 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/loreal-uv-defender.jpg"
-                             alt="L'Oreal Paris UV Defender Serum Protector">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            L'Oréal Paris
-                        </span>
-
-                        <h3>
-                            UV Defender Serum Protector
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+
-                        </span>
-
-                        <p>
-                            A sunscreen option from a major international beauty brand.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_10"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 11 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/bioderma-photoderm.jpg"
-                             alt="Bioderma Photoderm Creme">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Bioderma
-                        </span>
-
-                        <h3>
-                            Photoderm Crème
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+ PA++++
-                        </span>
-
-                        <p>
-                            A premium dermatological sunscreen option.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_11"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 12 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/la-shield-fisico.jpg"
-                             alt="La Shield Fisico Sunscreen">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            La Shield
-                        </span>
-
-                        <h3>
-                            La Shield Fisico
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+ PA++++
-                        </span>
-
-                        <p>
-                            A popular mineral sunscreen option.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_12"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 13 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/dot-key-watermelon-sunscreen.jpg"
-                             alt="Dot & Key Watermelon Cooling Sunscreen">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Dot & Key
-                        </span>
-
-                        <h3>
-                            Watermelon Cooling Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50+ PA++++
-                        </span>
-
-                        <p>
-                            A highly visible sunscreen with strong consumer interest.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_13"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 14 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/lakme-sunscreen.jpg"
-                             alt="Lakme Bright Skin Water-Light Sunscreen">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Lakmé
-                        </span>
-
-                        <h3>
-                            Bright Skin Water-Light Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 50 PA++++
-                        </span>
-
-                        <p>
-                            A mainstream Indian beauty brand sunscreen option.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_14"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- PRODUCT 15 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="product-card">
-
-                    <div class="product-image">
-
-                        <img src="images/deconstruct-gel-sunscreen.jpg"
-                             alt="Deconstruct Gel Sunscreen">
-
-                    </div>
-
-                    <div class="product-info">
-
-                        <span class="product-brand">
-                            Deconstruct
-                        </span>
-
-                        <h3>
-                            Deconstruct Gel Sunscreen
-                        </h3>
-
-                        <span class="spf">
-                            SPF 55+
-                        </span>
-
-                        <p>
-                            A popular affordable skincare option.
-                        </p>
-
-                        <a href="YOUR_AFFILIATE_LINK_15"
-                           class="amazon-btn"
-                           target="_blank"
-                           rel="nofollow sponsored noopener">
-                            View on Amazon →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+            </a>
 
         </div>
 
     </div>
 
 </section>
-<section id="skin-goals" class="skin-goals">
 
-<div class="container">
 
-<h2 class="section-title text-center">
-Shop by Skin Goal
-</h2>
 
-<p class="text-center mb-5">
-
-Choose your concern and discover curated routines,
-product recommendations and skincare guides.
-
-</p>
-
-<div class="row g-4">
-
-<div class="col-md-4">
-
-<div class="goal-card">
-
-<h3>☀️ Sun Protection</h3>
-
-<p>
-Find the best sunscreens for every skin type.
-</p>
-
-<a href="#featured-sunscreens" class="goal-btn">Explore →</a>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="goal-card">
-
-<h3>🌿 Acne & Breakouts</h3>
-
-<p>
-Gentle routines to reduce pimples and calm your skin.
-</p>
-
-<a href="#">Explore →</a>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="goal-card">
-
-<h3>✨ Brightening</h3>
-
-<p>
-Fade pigmentation and achieve healthy glowing skin.
-</p>
-
-<a href="#">Explore →</a>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="goal-card">
-
-<h3>💧 Dry Skin</h3>
-
-<p>
-Hydrating products for soft and nourished skin.
-</p>
-
-<a href="#">Explore →</a>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="goal-card">
-
-<h3>🛡 Barrier Repair</h3>
-
-<p>
-Strengthen and protect your skin barrier.
-</p>
-
-<a href="#">Explore →</a>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="goal-card">
-
-<h3>🌸 Beginner Routine</h3>
-
-<p>
-Simple skincare routines for beginners.
-</p>
-
-<a href="#">Explore →</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<!--==================================
-FEATURED BUYING GUIDES
-===================================-->
 <!-- =========================
-     FEATURED SUNSCREENS
+     PRODUCT TYPE LIST
 ========================== -->
 
-<section class="featured-products" id="featured-sunscreens">
+<section class="product-categories">
 
     <div class="container">
 
-        <div class="products-heading">
-
-            <span class="section-tag">
-                ☀️ Sun Protection
-            </span>
-
-            <h2>
-                Best Sunscreens
-            </h2>
-
-            <p>
-                Everyday sunscreens we've picked for lightweight,
-                comfortable and reliable sun protection.
-            </p>
-
-        </div>
+        <h2>
+            Explore Skincare
+        </h2>
 
 
-        <div class="product-grid">
+        <div class="category-grid">
 
 
-            <!-- PRODUCT 1 -->
+            <a href="#" class="category-card">
 
-            <div class="product-card">
+                <span>
+                    Sunscreens
+                </span>
 
-                <div class="product-image">
+                <span>
+                    →
+                </span>
 
-                    <img
-                        src="images/derma-sunscreen.jpg"
-                        alt="The Derma Co 1% Hyaluronic Sunscreen Aqua Gel SPF 50 PA++++"
-                    >
-
-                </div>
-
-
-                <div class="product-info">
-
-                    <span class="product-category">
-                        Sunscreen
-                    </span>
-
-                    <h3>
-                        The Derma Co 1% Hyaluronic
-                        Sunscreen Aqua Gel
-                    </h3>
-
-                    <p class="product-details">
-                        SPF 50 PA++++
-                    </p>
-
-                    <p class="product-description">
-                        A lightweight aqua-gel sunscreen designed
-                        for everyday sun protection without a
-                        heavy or greasy feel.
-                    </p>
+            </a>
 
 
-                    <a
-                        href="https://www.amazon.in/Derma-Co-Hyaluronic-Sunscreen-Protection/dp/B095CRM8NF?crid=1H4G8AY0HGUK6&dib=eyJ2IjoiMSJ9.rLljA-XFpSlgcMlSuBCZ4S8u8Z_ahSnQJlgslihMwsMXZmujWzVoRupQ-oD4Q2EDM2G_YUTfdf5q57EEGqBlvXIOmFvb3o-rKv4hxs4hQSq1x62eklS-laKFO7sVw-v1jk5HILW_WMGlxgzE-FvNKTvfiX5qSnNjFBkHh8lYRFvz7Nik5JDi04KHoPt-uakNtD0fTluiLfyXfacS-WNrlYs6d4QzZYToKciHHGOkCjr-sNcopaKCT5arFNoiSbffByG4popofaFHT0sBFCXydeG2pAXNarbELWOLYxkAMBg.PKvwuXzNG1hNPFctmsouVxEvBe7Cl6diPYWlH0SC1VE&dib_tag=se&keywords=The%2BDerma%2BCo%2B1%25%2BHyaluronic%2BSunscreen%2BAqua%2BGel%2BSPF%2B50%2BPA%2B%2B%2B%2B&nsdOptOutParam=true&qid=1786975923&sprefix=the%2Bderma%2Bco%2B1%25%2Bhyaluronic%2Bsunscreen%2Baqua%2Bgel%2Bspf%2B50%2Bpa%2B%2B%2B%2B%2Caps%2C411&sr=8-1-spons&aref=7bOLBMLBku&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=brivora06-21&linkId=a36cf71e194a0734cbcb2c24f8445eb3&ref_=as_li_ss_tl"
-                        target="_blank"
-                        rel="nofollow sponsored noopener"
-                        class="amazon-btn"
-                    >
-                        View on Amazon →
-                    </a>
+            <a href="#" class="category-card">
 
-                </div>
+                <span>
+                    Serums
+                </span>
 
-            </div>
+                <span>
+                    →
+                </span>
 
+            </a>
+
+
+            <a href="#" class="category-card">
+
+                <span>
+                    Toners
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+            <a href="#" class="category-card">
+
+                <span>
+                    Cleansers
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+            <a href="#" class="category-card">
+
+                <span>
+                    Moisturizers
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+            <a href="#" class="category-card">
+
+                <span>
+                    Lip Balms
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+            <a href="#" class="category-card">
+
+                <span>
+                    Cleansing Oils
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+            <a href="#" class="category-card">
+
+                <span>
+                    Face Masks
+                </span>
+
+                <span>
+                    →
+                </span>
+
+            </a>
 
         </div>
 
@@ -1134,23 +451,27 @@ FEATURED BUYING GUIDES
 </section>
 
 
-<!-- AMAZON AFFILIATE DISCLOSURE -->
+
+<!-- =========================
+     AFFILIATE DISCLOSURE
+========================== -->
 
 <section class="affiliate-disclosure">
 
-    <div class="container">
-
-        <p>
-            As an Amazon Associate I earn from qualifying purchases.
-        </p>
-
-    </div>
+    <p>
+        As an Amazon Associate I earn from qualifying purchases.
+    </p>
 
 </section>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
 
 </body>
 

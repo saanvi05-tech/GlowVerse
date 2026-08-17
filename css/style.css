@@ -1798,3 +1798,501 @@ MOBILE
     }
 
 }
+/*==================================================
+  SKINCARE PAGE
+==================================================*/
+
+
+/*==================================================
+  SKINCARE HERO
+==================================================*/
+
+.skin-hero{
+
+    height:80vh;
+
+    background-image:
+    url("../images/skincare-main.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    position:relative;
+
+}
+
+
+.skin-hero-overlay{
+
+    width:100%;
+
+    height:100%;
+
+    background:
+    rgba(75,35,20,.30);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.skin-hero-content{
+
+    text-align:center;
+
+    color:white;
+
+}
+
+
+.skin-hero-content h1{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:80px;
+
+    font-weight:300;
+
+    letter-spacing:4px;
+
+    margin-bottom:80px;
+
+}
+
+
+.skin-buy-btn{
+
+    display:inline-block;
+
+    padding:14px 40px;
+
+    background:#D97D5B;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-family:"Poppins",sans-serif;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+.skin-buy-btn:hover{
+
+    background:#c76c4d;
+
+    color:white;
+
+}
+
+
+
+/*==================================================
+  BESTSELLERS
+==================================================*/
+
+.skin-bestsellers{
+
+    padding:90px 0;
+
+    background:#FFF0E9;
+
+    text-align:center;
+
+}
+
+
+.skin-bestsellers h2{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:52px;
+
+    font-weight:300;
+
+    color:#D47757;
+
+    margin-bottom:50px;
+
+}
+
+
+.bestseller-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:40px;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+
+.bestseller-card{
+
+    text-align:left;
+
+}
+
+
+.bestseller-card img{
+
+    width:100%;
+
+    height:285px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.3s;
+
+}
+
+
+.bestseller-card img:hover{
+
+    transform:scale(1.02);
+
+}
+
+
+.bestseller-card p{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:15px;
+
+    color:#513B32;
+
+    margin-top:12px;
+
+}
+
+
+.skin-view-btn{
+
+    display:inline-block;
+
+    margin-top:50px;
+
+    padding:13px 45px;
+
+    background:#D97D5B;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-family:"Poppins",sans-serif;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+.skin-view-btn:hover{
+
+    background:#c76c4d;
+
+    color:white;
+
+}
+
+
+
+/*==================================================
+  SHOP BY PRODUCT TYPE
+==================================================*/
+
+.product-type-section{
+
+    min-height:650px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    background:#FFF0E9;
+
+}
+
+
+.product-type-left{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+
+.product-type-left h2{
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:58px;
+
+    font-weight:300;
+
+    line-height:1.15;
+
+    color:#D47757;
+
+}
+
+
+.product-type-right{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+.product-type-right img{
+
+    width:100%;
+
+    height:100%;
+
+    min-height:650px;
+
+    object-fit:cover;
+
+}
+
+
+.product-type-link{
+
+    position:absolute;
+
+    top:20px;
+
+    left:20px;
+
+}
+
+
+.product-type-link a{
+
+    color:white;
+
+    font-size:16px;
+
+    text-decoration:underline;
+
+}
+
+
+
+/*==================================================
+  PRODUCT CATEGORIES
+==================================================*/
+
+.product-categories{
+
+    padding:100px 0;
+
+    background:#FFF0E9;
+
+}
+
+
+.product-categories h2{
+
+    text-align:center;
+
+    font-family:"Playfair Display",serif;
+
+    font-size:50px;
+
+    margin-bottom:50px;
+
+    color:#3B2923;
+
+}
+
+
+.category-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:15px;
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+
+.category-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 30px;
+
+    background:#fff;
+
+    color:#4B362F;
+
+    text-decoration:none;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+
+.category-card:hover{
+
+    background:#D97D5B;
+
+    color:white;
+
+}
+
+
+
+/*==================================================
+  AMAZON DISCLOSURE
+==================================================*/
+
+.affiliate-disclosure{
+
+    padding:25px;
+
+    background:#FFF0E9;
+
+    text-align:center;
+
+}
+
+
+.affiliate-disclosure p{
+
+    margin:0;
+
+    font-size:12px;
+
+    color:#806B62;
+
+}
+
+
+
+/*==================================================
+  MOBILE
+==================================================*/
+
+@media(max-width:900px){
+
+    .skin-hero{
+
+        height:70vh;
+
+    }
+
+
+    .skin-hero-content h1{
+
+        font-size:60px;
+
+    }
+
+
+    .bestseller-grid{
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+    .product-type-section{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .product-type-right img{
+
+        min-height:450px;
+
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .skin-hero-content h1{
+
+        font-size:45px;
+
+        margin-bottom:50px;
+
+    }
+
+
+    .bestseller-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .product-type-left{
+
+        min-height:400px;
+
+    }
+
+
+    .product-type-left h2{
+
+        font-size:42px;
+
+    }
+
+
+    .category-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
